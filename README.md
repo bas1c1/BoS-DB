@@ -1,3 +1,9 @@
+Пример логов СУБД при первом запуске
+<img src="IMG_20260119_125717_323.jpg">
+
+Пример использования
+<img src="IMG_20260119_125715_340.jpg">
+
 AUTH (формат пароля - base64):
 ```
 AUTH <user> <password>
@@ -59,4 +65,5 @@ docker run -d \
   -p 127.0.0.1:6379:6379 \
   --restart unless-stopped \
   bos-db
+
 ```
